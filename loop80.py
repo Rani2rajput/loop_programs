@@ -1,0 +1,10 @@
+a=int(input("enter num::"))
+i=1
+b=1
+sum=0
+while i<=a:
+	b=i*b
+	sum=sum+b
+	print(b,end="+")
+	i=i+1
+print(" =",sum)
